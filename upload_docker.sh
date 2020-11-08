@@ -5,14 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=mego2000/app
+dockerpath=mohamedghonim/app
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker tag udacity:latest mego2000/hello:latest
-docker login --username=mego2000
+docker tag udacity:latest mohamedghonim/udacity:latest
+docker login --username=mohamedghonim
 
 # Step 3:
 # Push image to a docker repository
-docker push mego2000/hello:latest
+docker push mohamedghonim/udacity:latest

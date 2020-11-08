@@ -4,11 +4,11 @@
 
 # Step 1:
 # This is your Docker ID/path
-dockerpath=mahaamin97/app
+dockerpath=mohamedghonim/app
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run udacity --image=mahaamin97/udacity  
+kubectl run udacity --image=mohamedghonim/udacity
 # Step 3:
 # List kubernetes pods
 kubectl get pods 
